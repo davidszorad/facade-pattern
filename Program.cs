@@ -14,6 +14,17 @@ namespace FacadePattern
         the creditworthyness of an applicant.
 
 
+        The classes and objects participating in this pattern are:
+
+        Facade   (MortgageApplication)
+            knows which subsystem classes are responsible for a request.
+            delegates client requests to appropriate subsystem objects.
+
+        Subsystem classes   (Bank, Credit, Loan)
+            implement subsystem functionality.
+            handle work assigned by the Facade object.
+
+
         OUTPUT:
         Ann McKinsey applies for $125,000.00 loan
 

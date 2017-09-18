@@ -7,18 +7,6 @@ namespace FacadePattern.Structural
     /*
     This structural code demonstrates the Facade pattern which provides a simplified 
     and uniform interface to a large subsystem of classes.
-      
-    
-    The classes and objects participating in this pattern are:
-
-    Facade   (MortgageApplication)
-        knows which subsystem classes are responsible for a request.
-        delegates client requests to appropriate subsystem objects.
-
-    Subsystem classes   (Bank, Credit, Loan)
-        implement subsystem functionality.
-        handle work assigned by the Facade object.
-
 
     OUTPUT:
     MethodA() ----
